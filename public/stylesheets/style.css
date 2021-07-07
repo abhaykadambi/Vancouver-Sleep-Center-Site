@@ -48,7 +48,14 @@ Sections
 Remove the margin in all browsers.
 */
 .wholenav{
-    
+    border-bottom-width:2px;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+}
+.wholenav:hover{
+    border-bottom-width:2px;
+    border-bottom-style: solid;
+    border-bottom-color:rgb(230, 230, 255);
 }
 .navbords{
     border-bottom-width: 2px;
