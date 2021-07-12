@@ -64,12 +64,28 @@ Remove the margin in all browsers.
     padding-bottom: 8px;
     padding-top: 8px;
 }
+.pageTitle{
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(125, 125, 255);
+  padding-right: 8px;
+  padding-left:8px;
+}
 .navbords:hover{
     border-bottom-width: 2px;
     border-bottom-style: solid;
     border-bottom-color: rgb(125, 125, 255);
     padding-bottom: 8px;
     padding-top: 8px;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropmenu:hover{
+  border-left-color: rgb(125, 125, 255);
+  border-left-style: solid;
+  border-left-width: 2px;
 }
 
 body {

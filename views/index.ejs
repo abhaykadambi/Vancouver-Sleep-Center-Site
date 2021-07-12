@@ -9,6 +9,27 @@
 </head>
 <body>
     <%- include('components/navbar'); %>
-    
+    <div class="container mx-auto flex flex-row">
+        <div class="w-4/5 container mx-auto">
+            <div class="flex items-center justify-center"><p class="text-3xl pageTitle">About</p></div>
+            <p class="px-10 py-5">Vancouver Sleep Center, is Vancouver’s AASM accredited comprehensive sleep center. We offer sleep testing on the latest medical equipment, and experienced physician and staff. We are your one stop center for physician visits, sleep testing, and durable medical equipment. This model has been shown to improve sleep apnea care. We have 3 convenient locations!</p>
+            <img class="rounded-md pb-5" src="https://coleandmarmalade.com/wp-content/uploads/2019/07/cat-sleeping-e1562875994725.jpg" alt="cute lil cat mmm so cute">
+        </div>
+        <div class="w-1/5 container mx-auto border-2 border-blue-300 border-opacity-100 rounded-md flex items-center justify-center flex-col bg-blue-50">
+            <div class="text-xl">Contact Information</div>
+            <p>phone: 360-839-4532</p>
+            <p>fax: 855-598-3606</p>
+            <div class="text-xl">Locations</div>
+            <div class="py-2">
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-4 rounded"><a href="https://nextpatient.co/p/1125/providers" target="_blank" rel="noopener noreferrer">Mill Plain</a></button>
+            </div>
+            <div class="py-2">
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-4 rounded"><a href="https://nextpatient.co/p/1126/providers" target="_blank" rel="noopener noreferrer">Salmon Creek</a></button>
+            </div>
+            <div class="py-2">
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-4 rounded"><a href="tel:(360)-839-4532">Longview</a></button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

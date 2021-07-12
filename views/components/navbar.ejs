@@ -1,10 +1,20 @@
 <div class="bg-white">
-    <nav class="flex flex-wrap items-center justify-between p-5 container mx-auto wholenav">
+    <nav class="flex flex-wrap items-center justify-between p-5 container mx-auto">
     <img src="https://vansleep.net/wp-content/uploads/2020/12/Vancouver-Sleep-Center-transparent-1.png" alt="joj" width="150" height="40">
     <div>
         <ul class="flex flex-row">
             <li class="px-5 navbords"><a>About</a></li>
-            <li class="px-5 navbords"><a>Services</a></li>
+            <div class="dropdown inline-block relative">
+                <button class="inline-flex items-center">
+                  <span class="mr-1 px-5 navbords">Services</span>
+                </button>
+                <ul class="dropdown-menu absolute hidden pt-1">
+                  <li class=""><a class="rounded-t bg-gray-100 hover:bg-gray-200 py-2 px-4 block whitespace-no-wrap dropmenu text-sm" href="#">Home Sleep Study</a></li>
+                  <li class=""><a class="bg-gray-100 hover:bg-gray-200 py-2 px-4 block whitespace-no-wrap dropmenu text-sm" href="#">Polysomnography</a></li>
+                  <li class=""><a class="bg-gray-100 hover:bg-gray-200 py-2 px-4 block whitespace-no-wrap dropmenu text-sm" href="#">MSLT</a></li>
+                  <li class=""><a class="rounded-b bg-gray-100 hover:bg-gray-200 py-2 px-4 block whitespace-no-wrap dropmenu text-sm" href="#">Insomnia</a></li>
+                </ul>
+              </div>
             <li class="px-5 navbords"><a>Staff</a></li>
             <li class="px-5 navbords"><a>News</a></li>
         </ul>
