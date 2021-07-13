@@ -107,6 +107,12 @@ Remove the margin in all browsers.
   border-left-width: 2px;
 }
 
+.footerthing{
+  border-top-color: rgb(125, 125, 255);
+  border-top-style: solid;
+  border-top-width: 2px;
+}
+
 body {
   margin: 0;
 }

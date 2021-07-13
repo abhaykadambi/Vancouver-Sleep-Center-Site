@@ -1,4 +1,5 @@
 const express = require('express');
+const mongoose = require('mongoose');
 const app = express();
 app.set('view engine', 'ejs');
 app.use(express.static('public'))
@@ -10,7 +11,6 @@ app.get('/',function(req,res){
 app.get('/services', function(req,res){
     res.render('service');
 });
-//add the router
 
 app.listen(process.env.port || 3000);
 
