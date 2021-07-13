@@ -6,6 +6,10 @@ app.use(express.static('public'))
 app.get('/',function(req,res){
     res.render('index');
 });
+
+app.get('/services', function(req,res){
+    res.render('service');
+});
 //add the router
 
 app.listen(process.env.port || 3000);
