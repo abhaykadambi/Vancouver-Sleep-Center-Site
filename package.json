@@ -4,6 +4,7 @@
   "description": "A website for vancouver sleep center",
   "main": "index.js",
   "scripts": {
+    "start":"node index",
     "test": "echo \"Error: no test specified\" && exit 1",
     "tailwind:css": "postcss static/css/tailwind.css -o static/css/style.css"
   },
