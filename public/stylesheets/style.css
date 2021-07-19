@@ -47,6 +47,12 @@ Sections
 /**
 Remove the margin in all browsers.
 */
+.staffPage{
+  border-color: green;
+  border-style: solid;
+  border-width: 2px;
+}
+
 ::-webkit-scrollbar {
   width: 3px;
 }

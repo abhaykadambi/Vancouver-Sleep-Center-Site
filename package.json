@@ -4,7 +4,7 @@
   "description": "A website for vancouver sleep center",
   "main": "index.js",
   "scripts": {
-    "start":"node index",
+    "start": "node index",
     "test": "echo \"Error: no test specified\" && exit 1",
     "tailwind:css": "postcss static/css/tailwind.css -o static/css/style.css"
   },
@@ -20,6 +20,7 @@
   "homepage": "https://github.com/abhaykadambi/Vancouver-Sleep-Center-Site#readme",
   "dependencies": {
     "autoprefixer": "^10.2.6",
+    "dotenv": "^10.0.0",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
     "mongoose": "^5.13.2",

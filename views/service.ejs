@@ -6,10 +6,32 @@
 </head>
 <body>
     <%- include('components/navbar'); %>
-    <div class="container mx-auto flex flex-row">
+    <div class="container mx-auto flex flex-row py-5">
         <div class="w-4/5 container mx-auto">
             <div class="flex items-center justify-center"><p class="text-3xl pageTitle">Services</p></div>
-            <p class="px-10 py-5">Vancouver Sleep Center, is Vancouver’s AASM accredited comprehensive sleep center. We offer sleep testing on the latest medical equipment, and experienced physician and staff. We are your one stop center for physician visits, sleep testing, and durable medical equipment. This model has been shown to improve sleep apnea care. We have 3 convenient locations!</p>
+            <div class="container">
+                <div class="flex items-center justify-center"><p class="px-10 py-5 text-lg font-bold">Who needs to see a sleep physician?</p></div>
+                <div class="hover:bg-purple-100">
+                    <p class="px-10 py-5 font-bold">Snorers and patients with non refreshing sleep</p>
+                    <p class="px-10 py-5">Snoring and sleep apnea are prevalent in a large subset of the population. Both can lead to disruption in the continuity of sleep. This leads to sleep fragmentation. The best tool to assess a patient for Sleep Apnea is polysomnography. While polysomnography is superior, many insurances prefer that a home sleep study be performed first. this is acceptable for most patients.</p>
+                </div>
+                <div class="hover:bg-purple-100">
+                    <p class="px-10 py-5 font-bold">Parasomnia and Sleep Walking</p>
+                    <p class="px-10 py-5">Not all movement in sleep is sleep walking. While children sleep walk often, this is rarer in adults and can be provoked by alcohol and medication too. Sleep walking however should be distinguished from REM Sleep Behavior Disorder (RBD). This is a neuro-degenerative disorder first described in 1986, and has been linked to development of Parkinsons disease. Polysomnography is the first step to diagnose this disorder.</p> 
+                </div>
+                <div class="hover:bg-purple-100">
+                    <p class="px-10 py-5 font-bold">Kids have sleep problems too!</p>
+                    <p class="px-10 py-5">As any parent can testify, a child that sleeps well, grows well. Your pediatrician is the best physician for your child but a sleep physician can help with unique non-medication strategies. No medication is FDA approved for insomnia in kids. Sleep apnea is common in snoring children, and often misdiagnosed as ADD/ADHD. Pediatric sleep apnea is diagnosed using polysomnography. Our technicians are great with kids and we ask that a parent spend the night at the sleep lab with the child. The treatment may be as simple as tonsillectomy.</p>
+                </div>
+            </div>
+            <div class="container">
+                <p class="px-10 py-5 font-bold">Home Sleep Study</p>
+                <p class="px-10 py-5">Many patients find dealing with a potential sleep disorder overwhelming. You may be fearful, or simply dread the idea of undergoing time-consuming and expensive evaluation and treatment. Home sleep testing, though accurate and easy to use, is only for evaluation of obstructive sleep apnea or other sleep breathing disorders.</p>
+                <p class="px-10 py-5">Home sleep testing is not as accurate as a polysomnogram and is not used as a screening tool. This means that a “normal” result on the home sleep testing is not very useful and often leads to testing with the more accurate polysomnogram. An “abnormal” result on the other hand can allow patient to be trialed on CPAP treatment quickly and save a patient the need for expensive, lab based testing.</p>
+                <p class="px-10 py-5">Additionally, certain pre existing medical conditions such as use of opioid pain medications, COPD and Heart Failure may interfere or skew the results of home sleep testing. Such patients should undergo a polysomnogram.</p>
+                <p class="px-10 py-5 font-medium">As with any testing at Vancouver Sleep Center, we will always have your test pre-authorized with your insurance so you will know how much a test costs before undergoing it.</p>
+                <iframe class="px-10 py-5" width="560" height="315" src="https://www.youtube.com/embed/Fr6DnNLhHns" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
             
         </div>
         <%- include('components/contactPanel') %>
