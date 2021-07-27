@@ -9,10 +9,12 @@
     <div class="container mx-auto flex flex-row">
         <div class="w-4/5 container mx-auto">
             <div class="flex items-center justify-center"><p class="text-3xl pageTitle">Staff</p></div>
-            <% employees.forEach((employee) => { %>
-                <%- include('components/staffmember', {employee: employee}) %>
-            <% }) %>
-            
+            <% //employees.forEach((employee) => { %>
+                <%- //include('components/staffmember', {employee: employee}) %>
+            <% //}) %>
+            <% Array.from(employees).forEach(function(item, index){ %>
+                <%- include('components/staffmember', {employee: item}) %>
+            <% }); %>
         </div>
         <%- include('components/contactPanel') %>
     </div>

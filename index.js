@@ -20,7 +20,7 @@ app.get('/',function(req,res){
 
 app.get('/services', function(req,res){
     res.render('service');
-});
+}); 
 
 app.get('/staff', function(req,res){
     var employees = {};
@@ -29,8 +29,16 @@ app.get('/staff', function(req,res){
         console.log(docs)
         console.log(err)
     }).then(()=>{
+        if(employees===null){
+            res.redirect('back');
+        }
+    }).then(()=>{
         res.render('staff', {"employees":employees});
-    });
+    })
+});
+
+app.get('/contact', function(req,res){
+    res.render('contact');
 });
 
 app.listen(process.env.port || 3000);
