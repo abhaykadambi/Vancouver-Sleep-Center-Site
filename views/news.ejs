@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('components/header'); %>
+    <title>News - Vancouver Sleep Center</title>
+</head>
+<body>
+    <%- include('components/navbar'); %>
+    <div class="container mx-auto flex flex-row">
+        <div class="w-4/5 container mx-auto">
+            <% Array.from(newsThings).forEach(function(item, index){ %>
+                <%- include('components/newsArticle', {newsthing: item}) %>
+            <% }); %>
+        </div>
+        <%- include('components/contactPanel') %>
+    </div>
+    <%- include('components/footer') %>
+</body>
+</html>
