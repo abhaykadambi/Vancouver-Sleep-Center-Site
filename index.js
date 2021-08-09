@@ -23,17 +23,12 @@ app.get('/services', function(req,res){
 }); 
 
 app.get('/staff', function(req,res){
-    var employees = {};
     employee.find({}, function (err, docs){
         employees = docs;
         console.log(docs)
         console.log(err)
-    }).then(()=>{
-        if(employees===null){
-            res.redirect('back');
-        }
-    }).then(()=>{
-        res.render('staff', {"employees":employees});
+    }).then((docs)=>{
+        res.render('staff', {"employees":docs});
     })
 });
 
