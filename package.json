@@ -19,14 +19,22 @@
   },
   "homepage": "https://github.com/abhaykadambi/Vancouver-Sleep-Center-Site#readme",
   "dependencies": {
-    "autoprefixer": "^10.2.6",
+    "@fullhuman/postcss-purgecss": "^4.0.3",
     "dotenv": "^10.0.0",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
     "mongoose": "^5.13.2",
     "nodemon": "^2.0.12",
-    "postcss": "^8.3.5",
+    "postcss": "^8.3.6",
     "postcss-cli": "^8.3.1",
-    "tailwindcss": "^2.2.4"
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-preset-env": "^6.7.0",
+    "tailwindcss": "^2.2.4",
+    "webpack": "^5.50.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.1",
+    "cssnano": "^5.0.7",
+    "postcss-import": "^14.0.2"
   }
 }
