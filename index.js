@@ -48,6 +48,6 @@ app.get('/news', function(req,res){
     res.render('news', {newsThings:staticNewsArticles});
 });
 
-app.listen(process.env.port || 3000);
+app.listen(process.env.port || 8080);
 
 console.log('Running at Port 3000');
