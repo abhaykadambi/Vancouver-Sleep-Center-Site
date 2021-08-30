@@ -2,18 +2,50 @@
 <html lang="en">
 <head>
     <%- include('components/header'); %>
-    <title>About - Vancouver Sleep Center</title>
+    <title>Home - Vancouver Sleep Center</title>
 </head>
 <body>
     <%- include('components/navbar'); %>
-    <div class="container mx-auto flex lg:flex-row">
-        <div class="lg:w-4/5 container mx-auto">
-            <div class="flex items-center justify-center"><p class="text-3xl pageTitle">About</p></div>
-            <p class="px-10 py-5">Vancouver Sleep Center, is Vancouver’s AASM accredited comprehensive sleep center. We offer sleep testing on the latest medical equipment, and experienced physician and staff. We are your one stop center for physician visits, sleep testing, and durable medical equipment. This model has been shown to improve sleep apnea care. We have 3 convenient locations!</p>
-            <img class="rounded-lg px-10 py-5" src="https://coleandmarmalade.com/wp-content/uploads/2019/07/cat-sleeping-e1562875994725.jpg" alt="cute lil cat mmm so cute">
-        </div>
-        <%- include('components/contactPanel') %>
+    <div class="container mx-auto flex flex-col">
     </div>
+    <div class="homepageaction">
+        <div class="py-10 items-center flex justify-center flex-col">
+            <p class="text-white text-5xl py-8 font-serif">Sleep Fuels Your Day</p>
+            <p class="text-white text-lg py-8">Sleep is how your body rebuilds itself. Make sure it is the best that it can be!</p>
+            <div class="rounded-none border-4 border-white-400 border-opacity-100 border-solid"><a href="/contact" class="py-4 px-6 text-white text-lg">Book Now</a></div>
+        </div>
+    </div>
+    <div class="container mx-auto flex flex-row justify-center py-10">
+        <img class="rounded-lg px-10 py-5" src="http://cricclubs.com/documentsRep/profilePics/373839.JPG" alt="cute lil cat mmm so cute">
+        <div class="flex flex-col container w-2/5">
+                <div class="flex justify-end flex-col py-20">
+                    <p class="text-3xl text-bold">Our Sleep Medicine Physician</p>
+                    <p class="py-5">“I am a Sleep medicine physician and devote a 100% of my practice to treating sleep disorders. I am also not ashamed to call myself a ‘sleep nerd’.  Treating patients and hearing success stories brings me joy. Also a full time dad and husband , I love the ‘Couve.” <a href="/staff" class="text-blue-500">See the rest of the staff?</a></p>
+                </div>
+        </div>
+    </div>
+    <div class="homepageicon2">
+        <div class="container mx-auto flex flex-col items-center justify-center py-10">
+            <p class="text-5xl text-white py-5 pb-10">Who Are We?</p>
+            <p class="text-lg text-white text-center pb-10">Vancouver Sleep Center, is Vancouver’s AASM accredited comprehensive sleep center. We offer sleep testing on the latest medical equipment, and experienced physician and staff. We are your one stop center for physician visits, sleep testing, and durable medical equipment. This model has been shown to improve sleep apnea care. We have 3 convenient locations!</p>
+            <div class="rounded-none border-4 border-white-400 border-opacity-100 border-solid"><a href="/staff" class="py-4 px-6 text-white text-lg">See Our Staff</a></div>
+        </div>
+    </div>
+    <div class="bg-blue-100">
+        <div class="container mx-auto">
+            <div class="flex flex-row">
+                <div class="w-1/3 flex items-center justify-center bg-blue-100 py-20 hover:bg-blue-300"><a href="/services#HS">Home Sleep Study</a></div>
+                <div class="w-1/3 flex items-center justify-center bg-blue-100 py-20 hover:bg-blue-300"><a href="/services#poly">Polysomnography</a></div>
+                <div class="w-1/3 flex items-center justify-center bg-blue-100 py-20 hover:bg-blue-300"><a href="/services#MS">MSLT</a></div>
+            </div>
+        </div>
+        
+    </div>
+    
+    
+        
+        
+    
     <%- include('components/footer') %>
 </body>
 </html>
